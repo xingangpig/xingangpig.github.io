@@ -8,12 +8,12 @@
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="zh-cn"
       href="http://localhost:1313/"
     />
     <xhtml:link
       rel="alternate"
-      hreflang="en"
+      hreflang="cn"
       href="http://localhost:1313/cn/"
     />
   </url>
