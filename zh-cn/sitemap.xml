@@ -48,10 +48,4 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
-  <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-05-06T15:03:57+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
