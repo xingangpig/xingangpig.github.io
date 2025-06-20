@@ -11,5 +11,15 @@
     <copyright>© 2025 Clean</copyright>
     <lastBuildDate>Tue, 06 May 2025 15:03:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>我的第一篇博客文章</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 06 May 2025 15:03:57 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

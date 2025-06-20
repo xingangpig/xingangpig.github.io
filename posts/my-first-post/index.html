@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.0182c0f324421602adaa0d72fbdebf2124dd109eb3f4b93b24d653ace5593e386bbca0dfbb4816ffaf43bcbd1a14465a53c88398e25ef595120730879307afb9.css"
-    integrity="sha512-AYLA8yRCFgKtqg1y&#43;96/ISTdEJ6z9Lk7JNZTrOVZPjhrvKDfu0gW/69DvL0aFEZaU8iDmOJe9ZUSBzCHkwevuQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.0b87d4a172b6f086516583ac77659f4cacd408ee273f7efe2ecd857dc0fbc82bc8139c29dc52ed18f33df9688b7d872f2984994dca699b690863977d742ea88a.css"
+    integrity="sha512-C4fUoXK28IZRZYOsd2WfTKzUCO4nP37&#43;Ls2FfcD7yCvIE5wp3FLtGPM9&#43;WiLfYcvKYSZTcppm2kIY5d9dC6oig==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -180,7 +180,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
     
@@ -517,6 +521,16 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -712,7 +726,7 @@
     
      <div
       class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
 
          <details open id="TOCView"
   class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
