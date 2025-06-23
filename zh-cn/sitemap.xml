@@ -4,7 +4,7 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-16T19:21:47+08:00</lastmod>
+    <lastmod>2025-06-21T22:45:26+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -20,7 +20,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/java/</loc>
-    <lastmod>2025-06-16T19:21:47+08:00</lastmod>
+    <lastmod>2025-06-21T22:45:26+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/java/java%E9%AB%98%E7%BA%A7/</loc>
+    <lastmod>2025-06-21T22:45:26+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
