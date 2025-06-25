@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/cn/</loc>
+    <loc>https://xingangpig.github.io/cn/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/"
+      href="https://xingangpig.github.io/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="cn"
-      href="http://localhost:1313/cn/"
+      href="https://xingangpig.github.io/cn/"
     />
   </url>
 </urlset>
