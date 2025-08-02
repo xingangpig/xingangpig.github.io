@@ -109,7 +109,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "444"
+    "wordCount": "690"
   }]
   </script>
 
@@ -588,7 +588,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-06-21T22:45:26&#43;08:00">21 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>444 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2025-06-21T22:45:26&#43;08:00">21 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>690 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
   
 
   
@@ -740,6 +740,8 @@
   <ul>
     <li><a href="#异常">异常</a></li>
     <li><a href="#泛型">泛型</a></li>
+    <li><a href="#stream流">✨Stream流</a></li>
+    <li><a href="#file和io流">File和IO流</a></li>
   </ul>
 </nav>
   </div>
@@ -755,6 +757,8 @@
   <ul>
     <li><a href="#异常">异常</a></li>
     <li><a href="#泛型">泛型</a></li>
+    <li><a href="#stream流">✨Stream流</a></li>
+    <li><a href="#file和io流">File和IO流</a></li>
   </ul>
 </nav>
   </div>
@@ -822,10 +826,10 @@
     </span>        
     
 </h2>
-<div align="center"><img src="/Users/clean/code/blog/assets/img/exception.png" width="60%" height="50%" align=center/></div>
-<div align="center"><img src="/Users/clean/code/blog/assets/img/exceptionprocess.png" width="60%" height="50%" align=center/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/eception.png" width="60%" height="50%" align=center/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/exceptionprocess.png" width="60%" height="50%" align=center/></div>
 <p><strong>自定义异常</strong></p>
-<div align="center"><img src="/Users/clean/code/blog/assets/img/exceptiondiy.png" width="60%" height="50%" align=center/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/exceptiondiy.png" width="60%" height="50%" align=center/></div>
 
 
 <h2 class="relative group">泛型 
@@ -838,7 +842,7 @@
     </span>        
     
 </h2>
-<div align="center"><img src="/Users/clean/code/blog/assets/img/genericdefine.png" width="60%" height="50%" align=center/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/genericdefine.png" width="60%" height="50%" align=center/></div>
 <p>泛型接口实例：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">interface</span> <span class="nc">Data</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">add</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="n">t</span><span class="p">);</span><span class="w">
@@ -895,6 +899,40 @@
 <li>把基本类型转换成为String类型（String.toString()方法）</li>
 <li>😘把String转换成为基本类型（int parseInt(), Integer.valueOf()）</li>
 </ol>
+
+
+<h2 class="relative group">✨Stream流 
+    <div id="stream%E6%B5%81" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#stream%E6%B5%81" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>Stream流是JDK8开始Java新增的一套API（Java.util.stream.*），可以用于操作集合或者数组的数据。</p>
+<p>优势：Stream流大量结合了Lambda的语法风格来编程，功能强大，性能高效，代码简洁，可读性好。</p>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/stream01.png" width="60%" height="50%" align=center/></div>
+<p>常用中间方法:</p>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/streamintermethod.png" width="60%" height="50%" align=center/></div>
+<p>常用终结方法:</p>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/streamterminatemethod.png" width="60%" height="50%" align=center/></div>
+<p>拓展：关于可变参数作为方法形参</p>
+<div align="center"><img src="https://raw.githubusercontent.com/xingangpig/pictures/refs/heads/master/params.png" width="60%" height="50%" align=center/></div>
+
+
+<h2 class="relative group">File和IO流 
+    <div id="file%E5%92%8Cio%E6%B5%81" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#file%E5%92%8Cio%E6%B5%81" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>File是java.io包里的一个类，File类的对象用于表示当前操作系统的文件（包括文件夹，文件夹是特殊的文件），File只能操作文件本身，需要配合IO流读写文件的数据。</p>
 
           
           

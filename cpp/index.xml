@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpps on Clean的博客</title>
+    <link>http://localhost:1313/cpp/</link>
+    <description>Recent content in Cpps on Clean的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>f11256576@126.com (Clean)</managingEditor>
+    <webMaster>f11256576@126.com (Clean)</webMaster>
+    <copyright>© 2025 Clean</copyright>
+    <lastBuildDate>Sat, 02 Aug 2025 18:43:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/cpp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>面经</title>
+      <link>http://localhost:1313/cpp/%E9%9D%A2%E7%BB%8F/</link>
+      <pubDate>Sat, 02 Aug 2025 18:43:07 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>http://localhost:1313/cpp/%E9%9D%A2%E7%BB%8F/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tcpip编程</title>
+      <link>http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Sat, 02 Aug 2025 18:41:48 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Stl</title>
+      <link>http://localhost:1313/cpp/stl/</link>
+      <pubDate>Mon, 14 Jul 2025 22:03:45 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>http://localhost:1313/cpp/stl/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

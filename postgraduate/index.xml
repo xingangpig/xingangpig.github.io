@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clean的博客</title>
-    <link>https://xingangpig.github.io/postgraduate/</link>
+    <link>http://localhost:1313/postgraduate/</link>
     <description>Recent content on Clean的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>f11256576@126.com (Clean)</managingEditor>
     <webMaster>f11256576@126.com (Clean)</webMaster>
     <copyright>© 2025 Clean</copyright>
-    <lastBuildDate>Tue, 06 May 2025 22:17:16 +0800</lastBuildDate><atom:link href="https://xingangpig.github.io/postgraduate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 May 2025 22:17:16 +0800</lastBuildDate><atom:link href="http://localhost:1313/postgraduate/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>来时路</title>
-      <link>https://xingangpig.github.io/postgraduate/%E6%9D%A5%E6%97%B6%E8%B7%AF/</link>
+      <link>http://localhost:1313/postgraduate/%E6%9D%A5%E6%97%B6%E8%B7%AF/</link>
       <pubDate>Tue, 06 May 2025 22:17:16 +0800</pubDate>
       <author>f11256576@126.com (Clean)</author>
-      <guid>https://xingangpig.github.io/postgraduate/%E6%9D%A5%E6%97%B6%E8%B7%AF/</guid>
+      <guid>http://localhost:1313/postgraduate/%E6%9D%A5%E6%97%B6%E8%B7%AF/</guid>
       <description></description>
       
     </item>

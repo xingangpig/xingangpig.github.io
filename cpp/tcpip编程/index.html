@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>First &middot; Clean的博客</title>
-  <meta name="title" content="First &middot; Clean的博客" />
+  <title>Tcpip编程 &middot; Clean的博客</title>
+  <meta name="title" content="Tcpip编程 &middot; Clean的博客" />
   
   <meta name="description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。" />
   
   
   
-  <link rel="canonical" href="http://localhost:1313/java/first/" />
+  <link rel="canonical" href="http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/" />
   
   
   
@@ -69,19 +69,19 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/java/first/">
+  <meta property="og:url" content="http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/">
   <meta property="og:site_name" content="Clean的博客">
-  <meta property="og:title" content="First">
+  <meta property="og:title" content="Tcpip编程">
   <meta property="og:description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="java">
-    <meta property="article:published_time" content="2025-06-05T14:36:59+08:00">
-    <meta property="article:modified_time" content="2025-06-05T14:36:59+08:00">
+    <meta property="article:section" content="cpp">
+    <meta property="article:published_time" content="2025-08-02T18:41:48+08:00">
+    <meta property="article:modified_time" content="2025-08-02T18:41:48+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="First">
+  <meta name="twitter:title" content="Tcpip编程">
   <meta name="twitter:description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。">
 
   
@@ -89,27 +89,27 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Javas",
-    "name": "First",
-    "headline": "First",
+    "articleSection": "Cpps",
+    "name": "Tcpip编程",
+    "headline": "Tcpip编程",
     
     
     "inLanguage": "zh-cn",
-    "url" : "http:\/\/localhost:1313\/java\/first\/",
+    "url" : "http:\/\/localhost:1313\/cpp\/tcpip%E7%BC%96%E7%A8%8B\/",
     "author" : {
       "@type": "Person",
       "name": "Clean"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-06-05T14:36:59\u002b08:00",
-    "datePublished": "2025-06-05T14:36:59\u002b08:00",
+    "dateCreated": "2025-08-02T18:41:48\u002b08:00",
+    "datePublished": "2025-08-02T18:41:48\u002b08:00",
     
-    "dateModified": "2025-06-05T14:36:59\u002b08:00",
+    "dateModified": "2025-08-02T18:41:48\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "109"
+    "wordCount": "1338"
   }]
   </script>
 
@@ -543,7 +543,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      First
+      Tcpip编程
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -588,10 +588,16 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-06-05T14:36:59&#43;08:00">5 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>109 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2025-08-02T18:41:48&#43;08:00">2 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1338 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span>
   
 
   
+  
+  <span class="pl-2"><span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    草稿
+  </span>
+</span></span>
   
 </div>
 
@@ -732,23 +738,16 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#标题">标题</a>
+    <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
+    <li><a href="#课后习题-p24">课后习题 P24</a>
       <ul>
-        <li><a href="#三级标题">三级标题</a>
-          <ul>
-            <li><a href="#四级标题">四级标题</a></li>
-          </ul>
-        </li>
+        <li><a href="#1套接字在网络编程中的作用是什么"><strong>(1)套接字在网络编程中的作用是什么？</strong></a></li>
+        <li><a href="#2"><strong>(2) <code>bind()</code>、<code>listen()</code>和<code>accept()</code>的作用与区别</strong></a></li>
+        <li><a href="#3-linux-vs-windows的套接字io差异"><strong>(3) Linux vs Windows的套接字I/O差异</strong></a></li>
+        <li><a href="#6底层文件io函数与ansi标准定义的文件io函数之间有何区别"><strong>(6)底层文件IO函数与ANSI标准定义的文件I/O函数之间有何区别？</strong></a></li>
+        <li><a href="#7利用底层文件io和ansi标准io编写文件复制程序可任意指定复制程序的使用方法"><strong>(7）利用底层文件I/O和ANSI标准I/O编写文件复制程序。可任意指定复制程序的使用方法。</strong></a></li>
       </ul>
     </li>
-    <li><a href="#字体">字体</a></li>
-    <li><a href="#引用">引用</a></li>
-    <li><a href="#分割线">分割线</a></li>
-    <li><a href="#图片">图片</a></li>
-    <li><a href="#超链接">超链接</a></li>
-    <li><a href="#列表">列表</a></li>
-    <li><a href="#表格">表格</a></li>
-    <li><a href="#代码">代码</a></li>
   </ul>
 </nav>
   </div>
@@ -762,23 +761,16 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#标题">标题</a>
+    <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
+    <li><a href="#课后习题-p24">课后习题 P24</a>
       <ul>
-        <li><a href="#三级标题">三级标题</a>
-          <ul>
-            <li><a href="#四级标题">四级标题</a></li>
-          </ul>
-        </li>
+        <li><a href="#1套接字在网络编程中的作用是什么"><strong>(1)套接字在网络编程中的作用是什么？</strong></a></li>
+        <li><a href="#2"><strong>(2) <code>bind()</code>、<code>listen()</code>和<code>accept()</code>的作用与区别</strong></a></li>
+        <li><a href="#3-linux-vs-windows的套接字io差异"><strong>(3) Linux vs Windows的套接字I/O差异</strong></a></li>
+        <li><a href="#6底层文件io函数与ansi标准定义的文件io函数之间有何区别"><strong>(6)底层文件IO函数与ANSI标准定义的文件I/O函数之间有何区别？</strong></a></li>
+        <li><a href="#7利用底层文件io和ansi标准io编写文件复制程序可任意指定复制程序的使用方法"><strong>(7）利用底层文件I/O和ANSI标准I/O编写文件复制程序。可任意指定复制程序的使用方法。</strong></a></li>
       </ul>
     </li>
-    <li><a href="#字体">字体</a></li>
-    <li><a href="#引用">引用</a></li>
-    <li><a href="#分割线">分割线</a></li>
-    <li><a href="#图片">图片</a></li>
-    <li><a href="#超链接">超链接</a></li>
-    <li><a href="#列表">列表</a></li>
-    <li><a href="#表格">表格</a></li>
-    <li><a href="#代码">代码</a></li>
   </ul>
 </nav>
   </div>
@@ -824,216 +816,251 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h1 class="relative group">MarkDown 语法 
-    <div id="markdown-%E8%AF%AD%E6%B3%95" class="anchor"></div>
+<h1 class="relative group">说在前面 
+    <div id="%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#markdown-%E8%AF%AD%E6%B3%95" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+<p>本文档为学习《TCP/IP网络编程》的读书笔记，不抄书，旨在记录细节并对章节后习题进行思考。</p>
+
+
+<h1 class="relative group">前置知识 
+    <div id="%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+<ul>
+<li>C语言基础</li>
+<li>操作系统知识（多线程、系统调用）</li>
+<li>计算机网络（传输层、网络层）</li>
+</ul>
+
+
+<h1 class="relative group">第一章 
+    <div id="%E7%AC%AC%E4%B8%80%E7%AB%A0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0" aria-label="锚点">#</a>
     </span>        
     
 </h1>
 
 
-<h2 class="relative group">标题 
-    <div id="%E6%A0%87%E9%A2%98" class="anchor"></div>
+<h2 class="relative group">以&quot;_t&quot;为后缀的数据类型 P12 
+    <div id="%E4%BB%A5_t%E4%B8%BA%E5%90%8E%E7%BC%80%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-p12" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E6%A0%87%E9%A2%98" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#%E4%BB%A5_t%E4%B8%BA%E5%90%8E%E7%BC%80%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-p12" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>以&quot;_t&quot;为后缀的数据类型是系统定义的类型，称为<strong>元数据类型</strong>。</p>
+<p>注意下面write系统调用的函数签名</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1">// 成功时返回写入的字节数 失败返回-1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">ssize_t</span> <span class="nf">write</span><span class="p">(</span><span class="kt">int</span> <span class="n">fd</span><span class="p">,</span> <span class="k">const</span> <span class="o">*</span><span class="kt">void</span> <span class="n">buf</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">nbytes</span><span class="p">);</span>
+</span></span></code></pre></div><p>操作系统定义了这种<strong>元数据类型</strong>，实际上是为一些基本数据类型起了别名。</p>
+<p>在不同位的操作系统中不同的数据类型的底层位数可能不同，如我们常接触的的int是32位的，某些64位的操作系统中，可能会将int扩展到8字节，我们教操作系统定义系统类型，使用定义好的元数据类型可以方便程序移植，即在不同操作系统中不必逐个调整程序中的变量类型。</p>
+<p><strong>应用场景</strong>：元数据类型在<u>文件操作</u>、<u>内存分配</u>、<u>跨平台兼容</u>场景有着应用。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// 1. 文件操作
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="kt">ssize_t</span> <span class="nf">read</span><span class="p">(</span><span class="kt">int</span> <span class="n">fd</span><span class="p">,</span> <span class="kt">void</span> <span class="o">*</span><span class="n">buf</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">count</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="c1">// 返回值用ssize_t：可能返回-1表示错误
+</span></span></span><span class="line"><span class="cl"><span class="c1">// count用size_t：大小不能为负数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 2. 内存分配
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="o">*</span><span class="nf">malloc</span><span class="p">(</span><span class="kt">size_t</span> <span class="n">size</span><span class="p">);</span> <span class="c1">// 分配内存大小用size_t
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 3. 跨平台兼容
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 不好的写法
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">packet_size</span><span class="p">;</span> <span class="c1">// 在16位系统可能溢出！
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 好的写法
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">size_t</span> <span class="n">packet_size</span><span class="p">;</span> <span class="c1">// 自动适应系统位数
+</span></span></span></code></pre></div><p>书上知识补给站描述如下</p>
+<img src="https://raw.githubusercontent.com/xingangpig/pictures/master/img/PixPin_2025-08-02_20-41-18.png#pic_center" alt="PixPin_2025-08-02_20-41-18" style="zoom:50%;" />
+
+
+<h2 class="relative group">课后习题 P24 
+    <div id="%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98-p24" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98-p24" aria-label="锚点">#</a>
     </span>        
     
 </h2>
 
 
-<h3 class="relative group">三级标题 
-    <div id="%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98" class="anchor"></div>
+<h3 class="relative group"><strong>(1)套接字在网络编程中的作用是什么？</strong> 
+    <div id="1%E5%A5%97%E6%8E%A5%E5%AD%97%E5%9C%A8%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E6%98%AF%E4%BB%80%E4%B9%88" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#1%E5%A5%97%E6%8E%A5%E5%AD%97%E5%9C%A8%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E6%98%AF%E4%BB%80%E4%B9%88" aria-label="锚点">#</a>
     </span>        
     
 </h3>
-
-
-<h4 class="relative group">四级标题 
-    <div id="%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98" aria-label="锚点">#</a>
-    </span>        
-    
-</h4>
-
-
-<h5 class="relative group">五级标题 
-    <div id="%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98" aria-label="锚点">#</a>
-    </span>        
-    
-</h5>
-
-
-<h6 class="relative group">六级标题 
-    <div id="%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98" aria-label="锚点">#</a>
-    </span>        
-    
-</h6>
-
-
-<h2 class="relative group">字体 
-    <div id="%E5%AD%97%E4%BD%93" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%AD%97%E4%BD%93" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<p><em>Hello World !</em></p>
-<p><strong>Hello World !</strong></p>
-<p><em><strong>Hello World !</strong></em></p>
-<p><del>Hello World !</del></p>
-
-
-<h2 class="relative group">引用 
-    <div id="%E5%BC%95%E7%94%A8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%BC%95%E7%94%A8" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<blockquote>
-<p>床前明月光，疑是地上霜。</p></blockquote>
-
-
-<h2 class="relative group">分割线 
-    <div id="%E5%88%86%E5%89%B2%E7%BA%BF" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%88%86%E5%89%B2%E7%BA%BF" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<hr>
-<hr>
-
-
-<h2 class="relative group">图片 
-    <div id="%E5%9B%BE%E7%89%87" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%BE%E7%89%87" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<img src="/Users/clean/code/blog/assets/img/author.jpg" alt="本地图片" style="zoom:25%;" />
-
-
-<h2 class="relative group">超链接 
-    <div id="%E8%B6%85%E9%93%BE%E6%8E%A5" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%B6%85%E9%93%BE%E6%8E%A5" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<p><a href="https://www.bilibili.com/video/BV1GbY1e4E8Q/?spm_id_from=333.337.search-card.all.click&amp;vd_source=e5d64599b9ede4a095dcf8f9aa039aaf" target="_blank">糖心八大家</a></p>
-
-
-<h2 class="relative group">列表 
-    <div id="%E5%88%97%E8%A1%A8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%88%97%E8%A1%A8" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
+<p>作用：</p>
 <ol>
-<li>A</li>
-<li>B</li>
-<li>C</li>
+<li>套接字将复杂的网络协议（三次握手，数据包重组）封装成简单的API，使开发者无需关注底层细节。</li>
+<li>套接字允许不同主机（或同一主机）上的进程通过IP地址和端口号相互通信，支持TCP/IP、UDP等协议。</li>
 </ol>
-<ul>
-<li>A</li>
-<li>B</li>
-<li>C</li>
-</ul>
 
 
-<h2 class="relative group">表格 
-    <div id="%E8%A1%A8%E6%A0%BC" class="anchor"></div>
+<h3 class="relative group"><strong>(2) <code>bind()</code>、<code>listen()</code>和<code>accept()</code>的作用与区别</strong> 
+    <div id="2" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%A1%A8%E6%A0%BC" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#2" aria-label="锚点">#</a>
     </span>        
     
-</h2>
+</h3>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center">姓名</th>
-          <th style="text-align: center">性别</th>
-          <th style="text-align: center">学号</th>
+          <th style="text-align: center"><strong>函数</strong></th>
+          <th style="text-align: center"><strong>作用</strong></th>
+          <th style="text-align: center"><strong>调用时机</strong></th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: center">clean</td>
-          <td style="text-align: center">man</td>
-          <td style="text-align: center">21200107209</td>
+          <td style="text-align: center"><code>bind()</code></td>
+          <td style="text-align: center">标识通信端点：通过<strong>IP地址+端口号</strong>确定数据应发送到哪个主机的哪个进程。</td>
+          <td style="text-align: center"><code>listen()</code>之前</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><code>listen()</code></td>
+          <td style="text-align: center">将套接字设为<strong>被动模式</strong>，声明愿意接受连接，并设置连接请求队列的最大长度。</td>
+          <td style="text-align: center"><code>bind()</code>之后<code>accept()</code>之前</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><code>accept()</code></td>
+          <td style="text-align: center"><strong>从连接队列中取出一个已建立的连接</strong>，返回一个新的套接字用于与该客户端通信。原套接字继续监听。</td>
+          <td style="text-align: center">在<code>listen()</code>之后循环调用</td>
       </tr>
   </tbody>
 </table>
 
 
-<h2 class="relative group">代码 
-    <div id="%E4%BB%A3%E7%A0%81" class="anchor"></div>
+<h3 class="relative group"><strong>(3) Linux vs Windows的套接字I/O差异</strong> 
+    <div id="3-linux-vs-windows%E7%9A%84%E5%A5%97%E6%8E%A5%E5%AD%97io%E5%B7%AE%E5%BC%82" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BB%A3%E7%A0%81" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#3-linux-vs-windows%E7%9A%84%E5%A5%97%E6%8E%A5%E5%AD%97io%E5%B7%AE%E5%BC%82" aria-label="锚点">#</a>
     </span>        
     
-</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">animal</span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">age</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kt">void</span><span class="w"> </span><span class="nf">eat</span><span class="p">(){</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;eat something~~~&#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div>
+</h3>
+<p>Linux中，对套接字数据进行I/O时可以直接使用文件I/O相关函数；而在Windows中则不 可以。原因为何？</p>
+<p><strong>Linux允许文件I/O函数操作套接字</strong>：</p>
+<ul>
+<li><strong>一切皆文件</strong>：Linux将套接字、管道、设备等均抽象为文件描述符，统一用<code>read()</code>/<code>write()</code>等文件I/O函数操作。</li>
+</ul>
+<p><strong>Windows不允许</strong>：</p>
+<ul>
+<li><strong>分离设计</strong>：Windows严格区分文件操作（<code>ReadFile()</code>）和网络操作（<code>recv()</code>/<code>send()</code>），套接字用<code>SOCKET</code>类型而非文件句柄。</li>
+</ul>
+
+
+<h3 class="relative group"><strong>(6)底层文件IO函数与ANSI标准定义的文件I/O函数之间有何区别？</strong> 
+    <div id="6%E5%BA%95%E5%B1%82%E6%96%87%E4%BB%B6io%E5%87%BD%E6%95%B0%E4%B8%8Eansi%E6%A0%87%E5%87%86%E5%AE%9A%E4%B9%89%E7%9A%84%E6%96%87%E4%BB%B6io%E5%87%BD%E6%95%B0%E4%B9%8B%E9%97%B4%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6%E5%BA%95%E5%B1%82%E6%96%87%E4%BB%B6io%E5%87%BD%E6%95%B0%E4%B8%8Eansi%E6%A0%87%E5%87%86%E5%AE%9A%E4%B9%89%E7%9A%84%E6%96%87%E4%BB%B6io%E5%87%BD%E6%95%B0%E4%B9%8B%E9%97%B4%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">特性</th>
+          <th style="text-align: center">底层IO(系统调用)</th>
+          <th style="text-align: center">ANSI标准IO</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">缓冲</td>
+          <td style="text-align: center">无缓冲/内核缓冲</td>
+          <td style="text-align: center">用户态缓冲</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">函数</td>
+          <td style="text-align: center"><code>open()</code>, <code>read()</code>, <code>write()</code></td>
+          <td style="text-align: center"><code>fopen()</code>, <code>fread()</code>, <code>fprintf()</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">一致性</td>
+          <td style="text-align: center">不同OS跨平台差异大</td>
+          <td style="text-align: center">标准库，跨平台一致</td>
+      </tr>
+  </tbody>
+</table>
+
+
+<h3 class="relative group"><strong>(7）利用底层文件I/O和ANSI标准I/O编写文件复制程序。可任意指定复制程序的使用方法。</strong> 
+    <div id="7%E5%88%A9%E7%94%A8%E5%BA%95%E5%B1%82%E6%96%87%E4%BB%B6io%E5%92%8Cansi%E6%A0%87%E5%87%86io%E7%BC%96%E5%86%99%E6%96%87%E4%BB%B6%E5%A4%8D%E5%88%B6%E7%A8%8B%E5%BA%8F%E5%8F%AF%E4%BB%BB%E6%84%8F%E6%8C%87%E5%AE%9A%E5%A4%8D%E5%88%B6%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#7%E5%88%A9%E7%94%A8%E5%BA%95%E5%B1%82%E6%96%87%E4%BB%B6io%E5%92%8Cansi%E6%A0%87%E5%87%86io%E7%BC%96%E5%86%99%E6%96%87%E4%BB%B6%E5%A4%8D%E5%88%B6%E7%A8%8B%E5%BA%8F%E5%8F%AF%E4%BB%BB%E6%84%8F%E6%8C%87%E5%AE%9A%E5%A4%8D%E5%88%B6%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>底层IO版</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;  </span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;fcntl.h&gt;  </span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">src_fd</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="s">&#34;src.txt&#34;</span><span class="p">,</span> <span class="n">O_RDONLY</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">dst_fd</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="s">&#34;dst.txt&#34;</span><span class="p">,</span> <span class="n">O_WRONLY</span> <span class="o">|</span> <span class="n">O_CREAT</span><span class="p">,</span> <span class="mo">0644</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">buf</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>  
+</span></span><span class="line"><span class="cl">    <span class="kt">ssize_t</span> <span class="n">n</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">((</span><span class="n">n</span> <span class="o">=</span> <span class="nf">read</span><span class="p">(</span><span class="n">src_fd</span><span class="p">,</span> <span class="n">buf</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">buf</span><span class="p">)))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">        <span class="nf">write</span><span class="p">(</span><span class="n">dst_fd</span><span class="p">,</span> <span class="n">buf</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>  
+</span></span><span class="line"><span class="cl">    <span class="nf">close</span><span class="p">(</span><span class="n">src_fd</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="nf">close</span><span class="p">(</span><span class="n">dst_fd</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>ANSI标准IO版</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;  </span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">    <span class="n">FILE</span> <span class="o">*</span><span class="n">src</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;src.txt&#34;</span><span class="p">,</span> <span class="s">&#34;r&#34;</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="n">FILE</span> <span class="o">*</span><span class="n">dst</span> <span class="o">=</span> <span class="nf">fopen</span><span class="p">(</span><span class="s">&#34;dst.txt&#34;</span><span class="p">,</span> <span class="s">&#34;w&#34;</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">buf</span><span class="p">[</span><span class="mi">1024</span><span class="p">];</span>  
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="nf">fgets</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">buf</span><span class="p">),</span> <span class="n">src</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>  
+</span></span><span class="line"><span class="cl">        <span class="nf">fputs</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="n">dst</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>  
+</span></span><span class="line"><span class="cl">    <span class="nf">fclose</span><span class="p">(</span><span class="n">src</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="nf">fclose</span><span class="p">(</span><span class="n">dst</span><span class="p">);</span>  
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>  
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
           
           
           
@@ -1055,8 +1082,8 @@
           
         
       <script>
-        var oid = "views_java\/first.md"
-        var oid_likes = "likes_java\/first.md"
+        var oid = "views_cpp\/tcpip编程.md"
+        var oid_likes = "likes_cpp\/tcpip编程.md"
       </script>
       
       
@@ -1076,18 +1103,40 @@
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/">
+            <a class="flex group mr-3" href="/cpp/stl/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >面向对象高级</span
+                  >Stl</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-06-16T19:21:47&#43;08:00">16 June 2025</time>
+                    <time datetime="2025-07-14T22:03:45&#43;08:00">14 July 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/cpp/%E9%9D%A2%E7%BB%8F/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >面经</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-08-02T18:43:07&#43;08:00">2 August 2025</time>
                   
                 </span>
               </span>

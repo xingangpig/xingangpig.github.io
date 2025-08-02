@@ -2,31 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javas on Clean的博客</title>
-    <link>https://xingangpig.github.io/java/</link>
+    <link>http://localhost:1313/java/</link>
     <description>Recent content in Javas on Clean的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>f11256576@126.com (Clean)</managingEditor>
     <webMaster>f11256576@126.com (Clean)</webMaster>
     <copyright>© 2025 Clean</copyright>
-    <lastBuildDate>Sat, 21 Jun 2025 22:45:26 +0800</lastBuildDate><atom:link href="https://xingangpig.github.io/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2025 22:45:26 +0800</lastBuildDate><atom:link href="http://localhost:1313/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Java高级</title>
+      <link>http://localhost:1313/java/java%E9%AB%98%E7%BA%A7/</link>
+      <pubDate>Sat, 21 Jun 2025 22:45:26 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>http://localhost:1313/java/java%E9%AB%98%E7%BA%A7/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>面向对象高级</title>
-      <link>https://xingangpig.github.io/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/</link>
+      <link>http://localhost:1313/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/</link>
       <pubDate>Mon, 16 Jun 2025 19:21:47 +0800</pubDate>
       <author>f11256576@126.com (Clean)</author>
-      <guid>https://xingangpig.github.io/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/</guid>
+      <guid>http://localhost:1313/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>First</title>
-      <link>https://xingangpig.github.io/java/first/</link>
+      <link>http://localhost:1313/java/first/</link>
       <pubDate>Thu, 05 Jun 2025 14:36:59 +0800</pubDate>
       <author>f11256576@126.com (Clean)</author>
-      <guid>https://xingangpig.github.io/java/first/</guid>
+      <guid>http://localhost:1313/java/first/</guid>
       <description></description>
       
     </item>
