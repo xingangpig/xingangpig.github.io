@@ -2,24 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clean的博客</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://xingangpig.github.io/posts/</link>
     <description>Recent content on Clean的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>f11256576@126.com (Clean)</managingEditor>
     <webMaster>f11256576@126.com (Clean)</webMaster>
     <copyright>© 2025 Clean</copyright>
-    <lastBuildDate>Tue, 06 May 2025 15:03:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>我的第一篇博客文章</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 06 May 2025 15:03:57 +0800</pubDate>
-      <author>f11256576@126.com (Clean)</author>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Tue, 06 May 2025 15:03:57 +0800</lastBuildDate><atom:link href="https://xingangpig.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
