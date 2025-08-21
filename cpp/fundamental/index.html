@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>我的第一篇博客文章 &middot; Clean的博客</title>
-  <meta name="title" content="我的第一篇博客文章 &middot; Clean的博客" />
+  <title>Fundamental &middot; Clean的博客</title>
+  <meta name="title" content="Fundamental &middot; Clean的博客" />
   
   <meta name="description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。" />
   
   
   
-  <link rel="canonical" href="http://localhost:1313/posts/my-first-post/" />
+  <link rel="canonical" href="http://localhost:1313/cpp/fundamental/" />
   
   
   
@@ -69,19 +69,19 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
+  <meta property="og:url" content="http://localhost:1313/cpp/fundamental/">
   <meta property="og:site_name" content="Clean的博客">
-  <meta property="og:title" content="我的第一篇博客文章">
+  <meta property="og:title" content="Fundamental">
   <meta property="og:description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-05-06T15:03:57+08:00">
-    <meta property="article:modified_time" content="2025-05-06T15:03:57+08:00">
+    <meta property="article:section" content="cpp">
+    <meta property="article:published_time" content="2025-08-17T18:01:13+08:00">
+    <meta property="article:modified_time" content="2025-08-17T18:01:13+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="我的第一篇博客文章">
+  <meta name="twitter:title" content="Fundamental">
   <meta name="twitter:description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。">
 
   
@@ -89,27 +89,27 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "",
-    "name": "我的第一篇博客文章",
-    "headline": "我的第一篇博客文章",
+    "articleSection": "Cpps",
+    "name": "Fundamental",
+    "headline": "Fundamental",
     
     
     "inLanguage": "zh-cn",
-    "url" : "http:\/\/localhost:1313\/posts\/my-first-post\/",
+    "url" : "http:\/\/localhost:1313\/cpp\/fundamental\/",
     "author" : {
       "@type": "Person",
       "name": "Clean"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-05-06T15:03:57\u002b08:00",
-    "datePublished": "2025-05-06T15:03:57\u002b08:00",
+    "dateCreated": "2025-08-17T18:01:13\u002b08:00",
+    "datePublished": "2025-08-17T18:01:13\u002b08:00",
     
-    "dateModified": "2025-05-06T15:03:57\u002b08:00",
+    "dateModified": "2025-08-17T18:01:13\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "23"
+    "wordCount": "1233"
   }]
   </script>
 
@@ -543,7 +543,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      我的第一篇博客文章
+      Fundamental
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -588,7 +588,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-06T15:03:57&#43;08:00">6 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>23 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2025-08-17T18:01:13&#43;08:00">17 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1233 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span>
   
 
   
@@ -738,7 +738,21 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#简介">简介</a></li>
+    <li><a href="#函数指针">函数指针</a>
+      <ul>
+        <li><a href="#声明和初始化函数指针">声明和初始化函数指针</a></li>
+      </ul>
+    </li>
+    <li><a href="#信号处理">信号处理</a>
+      <ul>
+        <li><a href="#注册信号">注册信号</a></li>
+      </ul>
+    </li>
+    <li><a href="#进程">进程</a>
+      <ul>
+        <li><a href="#进程变为僵尸进程的过程及预防措施">进程变为僵尸进程的过程及预防措施</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -752,7 +766,21 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#简介">简介</a></li>
+    <li><a href="#函数指针">函数指针</a>
+      <ul>
+        <li><a href="#声明和初始化函数指针">声明和初始化函数指针</a></li>
+      </ul>
+    </li>
+    <li><a href="#信号处理">信号处理</a>
+      <ul>
+        <li><a href="#注册信号">注册信号</a></li>
+      </ul>
+    </li>
+    <li><a href="#进程">进程</a>
+      <ul>
+        <li><a href="#进程变为僵尸进程的过程及预防措施">进程变为僵尸进程的过程及预防措施</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -796,19 +824,140 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>c++学习笔记</p>
 
-<h2 class="relative group">简介 
-    <div id="%E7%AE%80%E4%BB%8B" class="anchor"></div>
+
+<h2 class="relative group">函数指针 
+    <div id="%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E7%AE%80%E4%BB%8B" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88" aria-label="锚点">#</a>
     </span>        
     
 </h2>
-<p>这是 <strong>粗体</strong> 文本，这是 <em>斜体</em> 文本。 访问 <a href="https://gohugo.io" target="_blank">Hugo</a> 网站！</p>
+
+
+<h3 class="relative group">声明和初始化函数指针 
+    <div id="%E5%A3%B0%E6%98%8E%E5%92%8C%E5%88%9D%E5%A7%8B%E5%8C%96%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%A3%B0%E6%98%8E%E5%92%8C%E5%88%9D%E5%A7%8B%E5%8C%96%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// 声明一个函数指针 pf 可以指向 返回值为bool 且 形参为两个 const string &amp; 的函数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">bool</span> <span class="p">(</span><span class="o">*</span><span class="n">pf</span><span class="p">)</span> <span class="p">(</span><span class="k">const</span> <span class="n">string</span> <span class="o">&amp;</span><span class="p">,</span> <span class="k">const</span> <span class="n">string</span> <span class="o">&amp;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 声明一个上述形式的函数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">bool</span> <span class="nf">comparator</span><span class="p">(</span><span class="k">const</span> <span class="n">string</span> <span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">string</span> <span class="o">&amp;</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 两种等效方式 可以正确赋值函数指针 函数指针会自动解引用
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">pf</span> <span class="o">=</span> <span class="n">comparator</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">pf</span> <span class="o">=</span> <span class="o">*</span><span class="n">comparator</span><span class="p">;</span>
+</span></span></code></pre></div><p>函数形参声明函数指针</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;signal.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="p">(</span><span class="o">*</span><span class="nf">signal</span> <span class="p">(</span><span class="kt">int</span> <span class="n">signo</span><span class="p">,</span> <span class="kt">void</span> <span class="p">(</span><span class="o">*</span><span class="n">func</span><span class="p">)</span> <span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
+</span></span></code></pre></div><p>上面的signal函数有两个形参，一个是int类型的signal，另一个是无返回值，有一个int类型形参「<code>void (\*p) (int)</code>」的函数指针，并且<strong>signal函数的返回类型是一个「void (*ptr) (int)」函数指针</strong>。</p>
+
+
+<h2 class="relative group">信号处理 
+    <div id="%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">注册信号 
+    <div id="%E6%B3%A8%E5%86%8C%E4%BF%A1%E5%8F%B7" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%B3%A8%E5%86%8C%E4%BF%A1%E5%8F%B7" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>使用<code>signal函数</code>注册信号</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;signal.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="p">(</span><span class="o">*</span><span class="nf">signal</span> <span class="p">(</span><span class="kt">int</span> <span class="n">signo</span><span class="p">,</span> <span class="kt">void</span> <span class="p">(</span><span class="o">*</span><span class="n">func</span><span class="p">)</span> <span class="p">(</span><span class="kt">int</span><span class="p">)));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// eg1:注册为SIGINT信号注册处理函数keycontrol
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">keycontrol</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">signal</span><span class="p">(</span><span class="n">SIGINT</span><span class="p">,</span> <span class="n">keycontrol</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 注册上述信号之后 按下control+c会执行keycontrol函数
+</span></span></span></code></pre></div><p>以上就是注册信号的过程。之后发生对应注册信号后，操作系统将调用注册好的函数。</p>
+<p>下面介绍<code>alarm函数</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">unsigned</span> <span class="kt">int</span> <span class="nf">alarm</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">seconds</span><span class="p">);</span>
+</span></span></code></pre></div><p>如果调用该函数的同时向它传递一个正整型参数，相应时间后（以秒为单位）将产生<code>SIGALRM信号</code>。若向该函数传递0，则之前对<code>SIGALRM信号</code>的预约将取消。如果通过该函数预约信号后未指定该信号对应的处理函数，则（通过调用signal函数）终止进程，不做任何处理。希望引起注意。</p>
+<p><code>signal函数</code>在UNIX系列的不同操作系统中可能存在区别，但<code>sigaction函数</code>完全相同。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;signal.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 成功返回0，失败返回-1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span>	<span class="nf">sigaction</span><span class="p">(</span><span class="kt">int</span> <span class="n">signo</span><span class="p">,</span> <span class="k">const</span> <span class="k">struct</span> <span class="nc">sigaction</span> <span class="o">*</span> <span class="n">act</span><span class="p">,</span><span class="k">struct</span> <span class="nc">sigaction</span> <span class="o">*</span> <span class="n">oldact</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// sigaction结构体定义如下
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span>  <span class="nc">sigaction</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">union</span> <span class="nc">__sgaction_u</span> <span class="n">__sigaction_u</span><span class="p">;</span>  <span class="cm">/* signal handler */</span>
+</span></span><span class="line"><span class="cl">	<span class="n">sigset_t</span> <span class="n">sa_mask</span><span class="p">;</span>               <span class="cm">/* signal mask to apply */</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span>     <span class="n">sa_flags</span><span class="p">;</span>               <span class="cm">/* see signal options below */</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div>
+
+<h2 class="relative group">进程 
+    <div id="%E8%BF%9B%E7%A8%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BF%9B%E7%A8%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">进程变为僵尸进程的过程及预防措施 
+    <div id="%E8%BF%9B%E7%A8%8B%E5%8F%98%E4%B8%BA%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%A2%84%E9%98%B2%E6%8E%AA%E6%96%BD" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%BF%9B%E7%A8%8B%E5%8F%98%E4%B8%BA%E5%83%B5%E5%B0%B8%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%87%E7%A8%8B%E5%8F%8A%E9%A2%84%E9%98%B2%E6%8E%AA%E6%96%BD" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p><strong>变为僵尸进程的过程：</strong></p>
+<ol>
+<li>子进程先于父进程终止</li>
+<li>子进程退出后，内核会释放其大部分资源（内存、打开文件等），但仍在进程表中保留一个条目（<code>task_struct</code>），其中包含了子进程的<strong>退出状态</strong>等信息，等待父进程读取（通过<code>wait()</code>或<code>waitpid()</code>系统调用）。这个状态下的子进程就是<strong>僵尸进程（Zombie Process）</strong>。</li>
+<li>如果父进程一直没有读取子进程的退出状态，这个僵尸进程的进程表条目就会一直存在。</li>
+</ol>
+<p>这些僵尸进程会占用进程号（PID），系统可用的PID数量是有限的，同时僵尸进程占用内核进程表中的少量内存。</p>
+<p><strong>预防措施：</strong></p>
+<ol>
+<li><strong>父进程调用<code>wait()</code>或<code>waitpid()</code></strong>：主动回收已终止的子进程。
+<ul>
+<li><strong>阻塞等待</strong>：<code>wait(NULL)</code>会阻塞直到一个子进程终止。</li>
+<li><strong>非阻塞等待</strong>：<code>waitpid(-1, &amp;status, WNOHANG)</code>立即返回，检查是否有子进程终止，没有也不阻塞。</li>
+</ul>
+</li>
+<li><strong>忽略<code>SIGCHLD</code>信号</strong>：通过<code>signal(SIGCHLD, SIG_IGN)</code>或<code>sigaction</code>设置。告诉内核子进程终止后直接清理，无需等待父进程读取状态。<strong>注意</strong>：虽然传统和现代Linux系统支持此方法自动回收，但POSIX.1标准未定义此行为，最好使用<code>wait</code>系列函数。</li>
+<li><strong>使用信号处理函数</strong>：为<code>SIGCHLD</code>信号安装处理函数，在函数内部调用<code>waitpid</code>来回收子进程。这是最常用和可靠的方法。</li>
+</ol>
 
           
           
@@ -831,8 +980,8 @@
           
         
       <script>
-        var oid = "views_posts\/my-first-post.md"
-        var oid_likes = "likes_posts\/my-first-post.md"
+        var oid = "views_cpp\/fundamental.md"
+        var oid_likes = "likes_cpp\/fundamental.md"
       </script>
       
       
@@ -843,6 +992,43 @@
   <footer class="pt-8 max-w-prose print:hidden">
 
     
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/cpp/%E9%9D%A2%E7%BB%8F/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >面经</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-08-02T18:43:07&#43;08:00">2 August 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
   
 
 

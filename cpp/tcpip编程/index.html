@@ -109,7 +109,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1338"
+    "wordCount": "1805"
   }]
   </script>
 
@@ -268,17 +268,17 @@
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
+        <a href="/cpp/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Cpps">
+            C++
+          </p>
+        </a>
+        
         <a href="/java/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="Javas">
             Java学习
-          </p>
-        </a>
-        
-        <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-          
-          <p class="text-sm font-sm" title="">
-            图像处理
           </p>
         </a>
         
@@ -484,19 +484,19 @@
 </li>
 
 <li class="mt-1">
-    <a href="/java/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/cpp/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="Javas">
-            Java学习
+        <p class="text-sm font-small" title="Cpps">
+            C++
         </p>
     </a>
 </li>
 
 <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/java/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="">
-            图像处理
+        <p class="text-sm font-small" title="Javas">
+            Java学习
         </p>
     </a>
 </li>
@@ -588,7 +588,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-08-02T18:41:48&#43;08:00">2 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1338 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span>
+  <time datetime="2025-08-02T18:41:48&#43;08:00">2 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1805 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span>
   
 
   
@@ -738,8 +738,10 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#说在前面">说在前面</a></li>
+    <li><a href="#前置知识">前置知识</a></li>
     <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
-    <li><a href="#课后习题-p24">课后习题 P24</a>
+    <li><a href="#第一章习题-p24">第一章习题 P24</a>
       <ul>
         <li><a href="#1套接字在网络编程中的作用是什么"><strong>(1)套接字在网络编程中的作用是什么？</strong></a></li>
         <li><a href="#2"><strong>(2) <code>bind()</code>、<code>listen()</code>和<code>accept()</code>的作用与区别</strong></a></li>
@@ -748,6 +750,8 @@
         <li><a href="#7利用底层文件io和ansi标准io编写文件复制程序可任意指定复制程序的使用方法"><strong>(7）利用底层文件I/O和ANSI标准I/O编写文件复制程序。可任意指定复制程序的使用方法。</strong></a></li>
       </ul>
     </li>
+    <li><a href="#面向连接的套接字-p28">面向连接的套接字 P28</a></li>
+    <li><a href="#表示ipv4地址的结构体-p49">表示IPV4地址的结构体 P49</a></li>
   </ul>
 </nav>
   </div>
@@ -761,8 +765,10 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#说在前面">说在前面</a></li>
+    <li><a href="#前置知识">前置知识</a></li>
     <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
-    <li><a href="#课后习题-p24">课后习题 P24</a>
+    <li><a href="#第一章习题-p24">第一章习题 P24</a>
       <ul>
         <li><a href="#1套接字在网络编程中的作用是什么"><strong>(1)套接字在网络编程中的作用是什么？</strong></a></li>
         <li><a href="#2"><strong>(2) <code>bind()</code>、<code>listen()</code>和<code>accept()</code>的作用与区别</strong></a></li>
@@ -771,6 +777,8 @@
         <li><a href="#7利用底层文件io和ansi标准io编写文件复制程序可任意指定复制程序的使用方法"><strong>(7）利用底层文件I/O和ANSI标准I/O编写文件复制程序。可任意指定复制程序的使用方法。</strong></a></li>
       </ul>
     </li>
+    <li><a href="#面向连接的套接字-p28">面向连接的套接字 P28</a></li>
+    <li><a href="#表示ipv4地址的结构体-p49">表示IPV4地址的结构体 P49</a></li>
   </ul>
 </nav>
   </div>
@@ -816,7 +824,7 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h1 class="relative group">说在前面 
+<h2 class="relative group">说在前面 
     <div id="%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" class="anchor"></div>
     
     <span
@@ -825,11 +833,11 @@
             style="text-decoration-line: none !important;" href="#%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" aria-label="锚点">#</a>
     </span>        
     
-</h1>
-<p>本文档为学习《TCP/IP网络编程》的读书笔记，不抄书，旨在记录细节并对章节后习题进行思考。</p>
+</h2>
+<p>本文档为学习《TCP/IP网络编程》的读书笔记，旨在记录细节并对章节后习题进行思考。</p>
 
 
-<h1 class="relative group">前置知识 
+<h2 class="relative group">前置知识 
     <div id="%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86" class="anchor"></div>
     
     <span
@@ -838,24 +846,12 @@
             style="text-decoration-line: none !important;" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <ul>
 <li>C语言基础</li>
 <li>操作系统知识（多线程、系统调用）</li>
 <li>计算机网络（传输层、网络层）</li>
 </ul>
-
-
-<h1 class="relative group">第一章 
-    <div id="%E7%AC%AC%E4%B8%80%E7%AB%A0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0" aria-label="锚点">#</a>
-    </span>        
-    
-</h1>
 
 
 <h2 class="relative group">以&quot;_t&quot;为后缀的数据类型 P12 
@@ -894,13 +890,13 @@
 <img src="https://raw.githubusercontent.com/xingangpig/pictures/master/img/PixPin_2025-08-02_20-41-18.png#pic_center" alt="PixPin_2025-08-02_20-41-18" style="zoom:50%;" />
 
 
-<h2 class="relative group">课后习题 P24 
-    <div id="%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98-p24" class="anchor"></div>
+<h2 class="relative group">第一章习题 P24 
+    <div id="%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%B9%A0%E9%A2%98-p24" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%AF%BE%E5%90%8E%E4%B9%A0%E9%A2%98-p24" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%B9%A0%E9%A2%98-p24" aria-label="锚点">#</a>
     </span>        
     
 </h2>
@@ -1060,6 +1056,62 @@
 </span></span><span class="line"><span class="cl">    <span class="nf">fclose</span><span class="p">(</span><span class="n">dst</span><span class="p">);</span>  
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+
+<h2 class="relative group">面向连接的套接字 P28 
+    <div id="%E9%9D%A2%E5%90%91%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%A5%97%E6%8E%A5%E5%AD%97-p28" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E9%9D%A2%E5%90%91%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%A5%97%E6%8E%A5%E5%AD%97-p28" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>面向连接的套接字（SOCK_STREAM）具有如下特点：</p>
+<ul>
+<li>传输过程中数据不会丢失</li>
+<li>按序传输数据</li>
+<li>传输的数据不存在<code>数据边界</code>（Boundary）</li>
+</ul>
+<p>TIPS：</p>
+<ul>
+<li><code>数据边界</code>是通信过程中消息与消息之间的分割线，面向连接的套接字中，消息以数据流传输，不存在数据边界。</li>
+<li>收发数据的套接字有缓冲区（buffer），是一个字符数组。<code>write()</code>和<code>read()</code>就是对于缓冲区进行操作。因此<code>write()</code>和<code>read()</code>的使用次数没什么意义。</li>
+<li>当收<code>缓冲区满</code>时，套接字无法继续接受数据，此时TCP会进行流量控制，发送端停止发数据，因此**<code>面向连接的套接字不会发生数据丢失</code>**。</li>
+</ul>
+
+
+<h2 class="relative group">表示IPV4地址的结构体 P49 
+    <div id="%E8%A1%A8%E7%A4%BAipv4%E5%9C%B0%E5%9D%80%E7%9A%84%E7%BB%93%E6%9E%84%E4%BD%93-p49" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E8%A1%A8%E7%A4%BAipv4%E5%9C%B0%E5%9D%80%E7%9A%84%E7%BB%93%E6%9E%84%E4%BD%93-p49" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>c++中用sockaddr_in结构体表示IPV4地址结构，结构体具体的定义如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// sockaddr_in
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="n">sockaddr_in</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">__uint8_t</span>       <span class="n">sin_len</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">sa_family_t</span>     <span class="n">sin_family</span><span class="p">;</span> <span class="c1">// 地址族（Address Family）
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">in_port_t</span>       <span class="n">sin_port</span><span class="p">;</span> <span class="c1">// 端口号（16位）
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">struct</span>  <span class="n">in_addr</span> <span class="n">sin_addr</span><span class="p">;</span> <span class="c1">// IP地址（32位）
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">char</span>            <span class="n">sin_zero</span><span class="p">[</span><span class="mi">8</span><span class="p">];</span> <span class="c1">// 为使 sockaddr_in 与 sockaddr 大小一致而插入 无特殊意义 填充为0 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="n">in_addr</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">in_addr_t</span> <span class="n">s_addr</span><span class="p">;</span> <span class="c1">// 源码中定义了 typedef __uint32_t in_addr_t; 即in_addr_t 是 unsigned int (32bit) 用于表示IP地址
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// sockaddr
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="n">sockaddr</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">__uint8_t</span>       <span class="n">sa_len</span><span class="p">;</span>         <span class="cm">/* total length */</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">sa_family_t</span>     <span class="n">sa_family</span><span class="p">;</span>      <span class="cm">/* [XSI] address family */</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span>            <span class="n">sa_data</span><span class="p">[</span><span class="mi">14</span><span class="p">];</span>    <span class="cm">/* [XSI] addr value */</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span></code></pre></div>
           
           
