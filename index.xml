@@ -12,6 +12,26 @@
     <lastBuildDate>Sun, 17 Aug 2025 18:01:13 +0800</lastBuildDate><atom:link href="https://xingangpig.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>语言基础</title>
+      <link>https://xingangpig.github.io/cpp/fundamental/</link>
+      <pubDate>Sun, 17 Aug 2025 18:01:13 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>https://xingangpig.github.io/cpp/fundamental/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tcpip编程</title>
+      <link>https://xingangpig.github.io/cpp/tcpip%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Sat, 02 Aug 2025 18:41:48 +0800</pubDate>
+      <author>f11256576@126.com (Clean)</author>
+      <guid>https://xingangpig.github.io/cpp/tcpip%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>面向对象高级</title>
       <link>https://xingangpig.github.io/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%AB%98%E7%BA%A7/</link>
       <pubDate>Mon, 16 Jun 2025 19:21:47 +0800</pubDate>

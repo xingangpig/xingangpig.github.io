@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/" />
+  <link rel="canonical" href="https://xingangpig.github.io/cpp/tcpip%E7%BC%96%E7%A8%8B/" />
   
   
   
@@ -69,7 +69,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/cpp/tcpip%E7%BC%96%E7%A8%8B/">
+  <meta property="og:url" content="https://xingangpig.github.io/cpp/tcpip%E7%BC%96%E7%A8%8B/">
   <meta property="og:site_name" content="Clean的博客">
   <meta property="og:title" content="Tcpip编程">
   <meta property="og:description" content="本科四年仍是技术小白，因此我重生了，重生成为研究生开启学习之旅。">
@@ -95,7 +95,7 @@
     
     
     "inLanguage": "zh-cn",
-    "url" : "http:\/\/localhost:1313\/cpp\/tcpip%E7%BC%96%E7%A8%8B\/",
+    "url" : "https:\/\/xingangpig.github.io\/cpp\/tcpip%E7%BC%96%E7%A8%8B\/",
     "author" : {
       "@type": "Person",
       "name": "Clean"
@@ -109,7 +109,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1805"
+    "wordCount": "1773"
   }]
   </script>
 
@@ -588,16 +588,10 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-08-02T18:41:48&#43;08:00">2 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1805 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span>
+  <time datetime="2025-08-02T18:41:48&#43;08:00">2 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1773 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span>
   
 
   
-  
-  <span class="pl-2"><span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    草稿
-  </span>
-</span></span>
   
 </div>
 
@@ -738,7 +732,6 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#说在前面">说在前面</a></li>
     <li><a href="#前置知识">前置知识</a></li>
     <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
     <li><a href="#第一章习题-p24">第一章习题 P24</a>
@@ -752,6 +745,7 @@
     </li>
     <li><a href="#面向连接的套接字-p28">面向连接的套接字 P28</a></li>
     <li><a href="#表示ipv4地址的结构体-p49">表示IPV4地址的结构体 P49</a></li>
+    <li><a href="#io复用服务器端模型的理解">I/O复用服务器端模型的理解</a></li>
   </ul>
 </nav>
   </div>
@@ -765,7 +759,6 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#说在前面">说在前面</a></li>
     <li><a href="#前置知识">前置知识</a></li>
     <li><a href="#以_t为后缀的数据类型-p12">以&quot;_t&quot;为后缀的数据类型 P12</a></li>
     <li><a href="#第一章习题-p24">第一章习题 P24</a>
@@ -779,6 +772,7 @@
     </li>
     <li><a href="#面向连接的套接字-p28">面向连接的套接字 P28</a></li>
     <li><a href="#表示ipv4地址的结构体-p49">表示IPV4地址的结构体 P49</a></li>
+    <li><a href="#io复用服务器端模型的理解">I/O复用服务器端模型的理解</a></li>
   </ul>
 </nav>
   </div>
@@ -823,19 +817,6 @@
 
         <div class="article-content max-w-prose mb-20">
           
-
-<h2 class="relative group">说在前面 
-    <div id="%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2" aria-label="锚点">#</a>
-    </span>        
-    
-</h2>
-<p>本文档为学习《TCP/IP网络编程》的读书笔记，旨在记录细节并对章节后习题进行思考。</p>
-
 
 <h2 class="relative group">前置知识 
     <div id="%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86" class="anchor"></div>
@@ -1113,6 +1094,20 @@
 </span></span><span class="line"><span class="cl">	<span class="kt">char</span>            <span class="n">sa_data</span><span class="p">[</span><span class="mi">14</span><span class="p">];</span>    <span class="cm">/* [XSI] addr value */</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span></code></pre></div>
+
+<h2 class="relative group">I/O复用服务器端模型的理解 
+    <div id="io%E5%A4%8D%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%90%86%E8%A7%A3" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#io%E5%A4%8D%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%90%86%E8%A7%A3" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<img src="https://raw.githubusercontent.com/xingangpig/pictures/master/img/PixPin_2025-08-21_21-53-54.png" alt="PixPin_2025-08-21_21-53-54" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/xingangpig/pictures/master/img/PixPin_2025-08-21_21-54-49.png" alt="PixPin_2025-08-21_21-54-49" style="zoom:50%;" />
+
           
           
           
@@ -1155,40 +1150,18 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/cpp/stl/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Stl</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-07-14T22:03:45&#43;08:00">14 July 2025</time>
-                  
-                </span>
-              </span>
-            </a>
-          
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/cpp/%E9%9D%A2%E7%BB%8F/">
+            <a class="flex text-right group ml-3" href="/cpp/fundamental/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >面经</span
+                  >语言基础</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-08-02T18:43:07&#43;08:00">2 August 2025</time>
+                    <time datetime="2025-08-17T18:01:13&#43;08:00">17 August 2025</time>
                   
                 </span>
               </span>
@@ -1265,7 +1238,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://xingangpig.github.io/"
   style="z-index:500"
 >
   <div
